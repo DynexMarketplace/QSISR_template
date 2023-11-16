@@ -7,4 +7,23 @@ This algorithm demonstrates formulating quantum SISR as a sparse coding optimiza
 
 <p style="color: green;">FREE TEMPLATE (DYNEX DEVELOPERS)</p>
 
+## Requirements
+
+In addition to having the Dynex SDK installed and configured, the following packages are required:
+
+```
+pip install spams-bin
+pip install easydict
+pip install qubovert
+pip install -U scikit-image
+```
+
+## Run
+
+```
+python run.py
+``` 
+
+Note: This is an example implementation to showcase the core functionality and efficiacy of the implemented algorithm. In real world applications, all QUBOs would be sampled in 1 batch in parallel on the platform, reducing sampling time to 1 run of a few seconds.
+
 Dynex is the world’s first neuromorphic supercomputing blockchain based on the DynexSolve chip algorithm, a Proof-of-Useful-Work (PoUW) approach to solving real-world problems. The Dynex SDK is used to interact and compute on the Dynex Platform.
